@@ -90,32 +90,32 @@ class generator_base:
         enabled_list_dare.append("говори ніби тобі 80 років поки не настане твоя черга")
         enabled_list_dare.append('тихо прокричи "амогус сус"')
         enabled_list_dare.append("поводьтеся як коза, яка вмирає")
-        enabled_list_dare.append("заспівай будь-яку аісню з твого плейлиста")
+        enabled_list_dare.append("заспівай будь-яку пісню з твого плейлиста")
         enabled_list_dare.append("запиши на відео наступну дію")
         enabled_list_dare.append("говори з іншим акцентом до твоєї наступної черги")
-        enabled_list_dare.append("говори протилежність того що ти хотів сказати до наступною черги")
+        enabled_list_dare.append("говори протилежність того що ти хотів сказати до наступної черги")
         enabled_list_dare.append("заспівай 'im a barbie girl'")
         enabled_list_dare.append("скажи стидний факт про себе")
         enabled_list_dare.append("дай кожній людині кличку, і називай їх так до твого наступного ходу")
-        enabled_list_dare.append("покажи комусь з групи щось одне з цих: останне написане тобою повідомлення, останній пошуковий запит чи останне фото в галереї")
+        enabled_list_dare.append("покажи комусь з групи щось одне з цих: останнє написане тобою повідомлення, останній пошуковий запит чи останнє фото в галереї")
         enabled_list_dare.append("назви один плюс і один мінус кожного гравця")
-        enabled_list_dare.append("намалюй якогось гравця з закритими очима, а інші мають вгадати")
+        enabled_list_dare.append("намалюй якогось гравця з закритими очима, а інші мають вгадати хто це")
 
 
     def general_truth_enable():
         global enabled_list_truth
-        enabled_list_truth.append("яку гру/мультфіль/фільм/серіал/мултсеріал ви би стерли з цього світу")
+        enabled_list_truth.append("яку гру/мультфільм/фільм/серіал/мултьсеріал ви би стерли з цього світу")
         enabled_list_truth.append('в тебе колись був видуманий друг?')
         enabled_list_truth.append("оціни милість будь кого крім тебе")
         enabled_list_truth.append("оціни милість себе")
         enabled_list_truth.append("роскажи про дивний сон який тобі приснився")
         enabled_list_truth.append("роскажи про смішну історію з свого життя")
-        enabled_list_truth.append("як думаєш, якби наступив апокаліпсис хто би вмер першим")
-        enabled_list_truth.append("крли був останній раз коли ти плакав")
+        enabled_list_truth.append("як думаєш, якби наступив апокаліпсис хто би вмер першим, а хто би вижив")
+        enabled_list_truth.append("коли був останній раз коли ти плакав")
         enabled_list_truth.append("назви безкорисне вміння, яке би ти вивчив")
-        enabled_list_truth.append("якщо забрати всі складності перїзду, куди би ти переїхав?")
+        enabled_list_truth.append("якщо забрати всі складності перуїзду, куди би ти переїхав?")
         enabled_list_truth.append("якби ти би гарантовано не получив ніяких наказань, кого би ти вбив?")
-        enabled_list_dare.append("назви три програми вя ких ти проводиш найбільше часу")
+        enabled_list_truth.append("назви три програми в яких ти проводиш найбільше часу")
 
         
 
