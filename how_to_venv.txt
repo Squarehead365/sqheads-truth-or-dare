@@ -1,0 +1,18 @@
+For those missing green (venv). Solution:
+
+after you have typed the command "python -m venv [directory]" and have hit enter as my man Aditya does at 2:05 and have waited for it to make the venv directory, type into the terminal the following line:
+
+venv\scripts\activate
+
+and hit enter. Done. You should now how the green (venv) and be working with your virtual environment.
+
+
+!!ERROR!!
+If an error pops up about permissions or access being denied or something, go ahead and type into the terminal (you might want to reverse this change after you have done it btw, so read about this if you concerned):
+ 
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+
+and try executing "venv\scripts\activate" in the terminal again.
+
+!!ADDITIONAL POSSIBLE FIXES!!
+- make sure you're terminal is working in the correct directory (for example: C:\Users\Asus\Desktop\Project>) before executing "venv\scripts\activate"
