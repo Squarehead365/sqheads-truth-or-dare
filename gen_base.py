@@ -112,11 +112,14 @@ class generator_base:
         enabled_list_truth.append("роскажи про дивний сон який тобі приснився")
         enabled_list_truth.append("роскажи про смішну історію з свого життя")
         enabled_list_truth.append("як думаєш, якби наступив апокаліпсис хто би вмер першим")
-        enabled_list_truth.append("крли був останній раз коли ти плакав")
+        enabled_list_truth.append("коли був останній раз коли ти плакав")
         enabled_list_truth.append("назви безкорисне вміння, яке би ти вивчив")
         enabled_list_truth.append("якщо забрати всі складності перїзду, куди би ти переїхав?")
         enabled_list_truth.append("якби ти би гарантовано не получив ніяких наказань, кого би ти вбив?")
-        enabled_list_dare.append("назви три програми вя ких ти проводиш найбільше часу")
+        enabled_list_truth.append("назви три програми вя ких ти проводиш найбільше часу")
+        enabled_list_truth.append("який твій найлюбиміший фрукт?")
+        enabled_list_truth.append("якби ти міг сказати всім людям з будь якого часу якусь інформацію, і вони би її повністю зрозуміли і точно погодилися, що за інформація це би була")
+        enabled_list_truth.append("заспівати 'never gonna give you up'")
 
         
 
