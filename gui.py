@@ -22,17 +22,6 @@ class disable_enable_category():
             generator_base.creative_dare_disable(self)
             generator_base.creative_truth_disable(self)
 
-        
-
-genoutput = """
-MDLabel:
-    id: output_id
-    text: "sus"
-    theme_text_color: "Custom"
-    text_color: 0, 0, 0, 1
-    pos_hint: {"center_x": 0.6, "center_y": 0.8}
-    """
-
     
             
 
@@ -56,17 +45,6 @@ class truthordareApp(MDApp):
             
   
     def build(self):
-        pass
-        # global output_text
-
-
-        # class Lablechange():
-        
-        #     def labelchange_dare(self):
-        #         global output_text
-        #         global the_chosen_one
-        #         generator_base.generate_dare(self)
-        #         self.output_text = the_chosen_one
 
         
 
