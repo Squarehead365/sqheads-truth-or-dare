@@ -1,6 +1,6 @@
 import random 
 
-chosen_one = ''
+the_chosen_one = ''
 enabled_list_dare = []
 enabled_list_truth = []
 
@@ -13,7 +13,7 @@ class generator_base:
         """визначення атрибутів"""
 
 
-    def creative_dare_enable():
+    def creative_dare_enable(self):
         global enabled_list_dare
         enabled_list_dare.append('зроби ваншот/анімацію/комікс/арт, де головними героями є твій любимий персонаж і твій найменш любимий персонаж')
         enabled_list_dare.append('зроби ваншот/арт/анімацію по кросоверу твоєї вселенної з вселенною іншого гравця')
@@ -25,7 +25,7 @@ class generator_base:
 
 
 
-    def creative_dare_disable():
+    def creative_dare_disable(self):
         global enabled_list_dare
         enabled_list_dare.remove('зроби ваншот/анімацію/комікс/арт, де головними героями є твій любимий персонаж і твій найменш любимий персонаж')
         enabled_list_dare.remove('зроби ваншот/арт/анімацію по кросоверу твоєї вселенної з вселенною іншого гравця')
@@ -38,7 +38,7 @@ class generator_base:
 
 
 
-    def creative_truth_enable():
+    def creative_truth_enable(self):
         global enabled_list_truth
         enabled_list_truth.append('яка гра/філм/мультфілм/серіал/мультсеріал/книга/комікс/аніме/манга серйозно змінила вашу творчість?')
         enabled_list_truth.append("яким був твій перший персонаж? чи подобається він тобі зараз?")
@@ -48,7 +48,7 @@ class generator_base:
         enabled_list_truth.append('роскажіть про персонажа не створеного вами, який вплинув на вигляд/характер вашого персонажа')
 
 
-    def creative_truth_disable():
+    def creative_truth_disable(self):
         global enabled_list_truth
         enabled_list_truth.remove('яка гра/філм/мультфілм/серіал/мультсеріал/книга/комікс/аніме/манга серйозно змінила вашу творчість?')
         enabled_list_truth.remove("яким був твій перший персонаж? чи подобається він тобі зараз?")
@@ -59,7 +59,7 @@ class generator_base:
 
 
             
-    def hugs_n_cuddles_dare_enable():
+    def hugs_n_cuddles_dare_enable(self):
         global enabled_list_dare
         enabled_list_dare.append("обняти будь кого")
         enabled_list_dare.append("групові обнімашки")
@@ -71,7 +71,7 @@ class generator_base:
         enabled_list_dare.append("всі дічвата роблять групові обнімашки")
 
 
-    def hugs_n_cuddles_dare_disable():
+    def hugs_n_cuddles_dare_disable(self):
         global enabled_list_dare
         enabled_list_dare.remove("обняти будь кого")
         enabled_list_dare.remove("групові обнімашки")
@@ -83,7 +83,7 @@ class generator_base:
         enabled_list_dare.remove("всі дічвата роблять групові обнімашки")
 
 
-    def general_dare_enable():
+    def general_dare_enable(self):
         global enabled_list_dare
         enabled_list_dare.append("покачайтеся на підлозі")
         enabled_list_dare.append('підійди до рандомної людини біля тебе і скажи: "а ви не знаєте де тут пятірочка?"')
@@ -103,7 +103,7 @@ class generator_base:
         enabled_list_dare.append("намалюй якогось гравця з закритими очима, а інші мають вгадати")
 
 
-    def general_truth_enable():
+    def general_truth_enable(self):
         global enabled_list_truth
         enabled_list_truth.append("яку гру/мультфіль/фільм/серіал/мултсеріал ви би стерли з цього світу")
         enabled_list_truth.append('в тебе колись був видуманий друг?')
@@ -126,15 +126,15 @@ class generator_base:
 
 
 
-    def generate_dare():
+    def generate_dare(self):
         """генерація chosen one для дії"""
-        global chosen_one
+        global the_chosen_one
         global enabled_list_dare
-        chosen_one = random.choice(enabled_list_dare)
+        the_chosen_one = random.choice(enabled_list_dare)
 
 
-    def generate_truth():
+    def generate_truth(self):
         """генерація chosen one для правди"""
-        global chosen_one
+        global the_chosen_one
         global enabled_list_dare
-        chosen_one = random.choice(enabled_list_truth)
+        the_chosen_one = random.choice(enabled_list_truth)
