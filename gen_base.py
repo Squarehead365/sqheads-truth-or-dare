@@ -96,7 +96,6 @@ class generator_base:
         enabled_list_dare.append("говори з іншим акцентом до твоєї наступної черги")
         enabled_list_dare.append("говори протилежність того що ти хотів сказати до наступною черги")
         enabled_list_dare.append("заспівай 'im a barbie girl'")
-        enabled_list_dare.append("скажи стидний факт про себе")
         enabled_list_dare.append("дай кожній людині кличку, і називай їх так до твого наступного ходу")
         enabled_list_dare.append("покажи комусь з групи щось одне з цих: останне написане тобою повідомлення, останній пошуковий запит чи останне фото в галереї")
         enabled_list_dare.append("назви один плюс і один мінус кожного гравця")
@@ -116,10 +115,11 @@ class generator_base:
         enabled_list_truth.append("назви безкорисне вміння, яке би ти вивчив")
         enabled_list_truth.append("якщо забрати всі складності перїзду, куди би ти переїхав?")
         enabled_list_truth.append("якби ти би гарантовано не получив ніяких наказань, кого би ти вбив?")
-        enabled_list_truth.append("назви три програми вя ких ти проводиш найбільше часу")
+        enabled_list_truth.append("назви три програми в яких ти проводиш найбільше часу")
         enabled_list_truth.append("який твій найлюбиміший фрукт?")
         enabled_list_truth.append("якби ти міг сказати всім людям з будь якого часу якусь інформацію, і вони би її повністю зрозуміли і точно погодилися, що за інформація це би була")
         enabled_list_truth.append("заспівати 'never gonna give you up'")
+        enabled_list_truth.append("скажи стидний факт про себе")
 
         
 
