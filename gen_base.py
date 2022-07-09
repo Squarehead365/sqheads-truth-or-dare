@@ -131,6 +131,7 @@ class generator_base:
         global chosen_one
         global enabled_list_dare
         chosen_one = random.choice(enabled_list_dare)
+        print("\n" + chosen_one)
 
 
     def generate_truth():
@@ -138,3 +139,4 @@ class generator_base:
         global chosen_one
         global enabled_list_dare
         chosen_one = random.choice(enabled_list_truth)
+        print("\n" + chosen_one)
