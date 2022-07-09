@@ -51,7 +51,7 @@ class term_gui_base():
         if menu_choice == "1":
             generator_base.generate_dare()
             self.question_dare()
-        elif menu_choice == "1":
+        elif menu_choice == "2":
             generator_base.generate_truth()
             self.question_truth()
         elif menu_choice == "q":
