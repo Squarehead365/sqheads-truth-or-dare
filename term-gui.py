@@ -1,4 +1,3 @@
-from cgitb import enable
 import time
 import random
 from gen_base import generator_base
@@ -24,6 +23,7 @@ class term_gui_base():
             self.enable_disable_menu()
         else:
             print("будь ласка напишіть 1, 2, r або q")
+            self.menu()
             
 
     def enable_disable_menu(self):
@@ -36,6 +36,9 @@ class term_gui_base():
             self.hugsncuddles_submenu()
         if enable_disable_menu_choice == "m":
             self.menu()
+        else:
+            print("type 1, 2 or m")
+            self.enable_disable_menu()
         
     
     def character_fandom_submenu(self):
@@ -54,9 +57,9 @@ class term_gui_base():
         if character_fandom_submenu_choice == "4":
             generator_base.creative_truth_enable()
             self.enable_disable_menu()
-        
         else:
             print("будь ласка напишіть 1, 2, 3, або 4")
+            self.character_fandom_submenu()
 
     def hugsncuddles_submenu(self):
         print("дві дії доступні:")
@@ -70,6 +73,7 @@ class term_gui_base():
             self.enable_disable_menu()
         else: 
             print("будь ласка напишіть 1 або 2")
+            self.hugsncuddles_submenu()
 
 
          
